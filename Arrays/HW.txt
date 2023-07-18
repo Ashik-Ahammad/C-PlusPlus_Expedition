@@ -1,0 +1,7 @@
+// swap alternate
+// find unique
+// find duplicate
+// array intersection
+// pair sum
+// triplet sum
+// sort 0s sort 1s
