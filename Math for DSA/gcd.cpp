@@ -16,13 +16,27 @@ void gcdFunc(int n1, int n2) {
     
 }
 
+void gcdOptimized(int a, int b) {
+    while(a > 0 && b > 0){
+        if(a > b){
+            a = a % b;
+        }
+        else{
+            b = b % a;
+        }   
+    }
+    if(a==0) cout<<"GCD is: "<<b<<endl;
+    else cout<<"GCD is: "<<a<<endl;
+} 
+
 int main(){
 
     cout<<"Enter two numbers: ";
     int n1, n2;
     cin>>n1>>n2;
 
-    gcdFunc(n1, n2);
+    //gcdFunc(n1, n2);
+    gcdOptimized(n1, n2);
 
     return 0;
 }
