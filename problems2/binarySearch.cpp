@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-// TC= O(log n)
+// TC= O(log n) 
 
 int binarySearch(int arr[], int size, int key) {
 
